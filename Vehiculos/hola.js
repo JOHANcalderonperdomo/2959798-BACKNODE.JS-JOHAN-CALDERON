@@ -2,12 +2,13 @@
 function hola(callback) {
     console.log("hola");
     // Llamar a la función de callback después de mostrar "hola"
-    adios(callback);
+    callback();
 }
 
 function adios(callback) {
     console.log("adios");
     // Llamar al callback después de mostrar "adios"
+    
     callback();
 }
 
